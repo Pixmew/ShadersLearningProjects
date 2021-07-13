@@ -84,13 +84,6 @@ Shader "Unlit/Pattern2"
                 }
                 
                 return c;
-
-                /*UNITY_APPLY_FOG(i.fogCoord, col);
-                float inner = sin(i.uv.y * 50);
-                float x = sin(i.uv.y * _Frequency + _Time.y * 5  + inner) ;
-                
-                float4 col  = float4(x,x,x,1);
-                return col;*/
             }
             ENDCG
         }
